@@ -1,0 +1,8 @@
+body {
+  background-color: rgb(48,47,52);
+  color: white;
+}
+
+.clickable-item {
+  cursor: pointer;
+}
