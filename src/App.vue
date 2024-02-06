@@ -51,7 +51,7 @@
         },
 
         addToSteam() {
-          if (this.selection !== {} && this.selection != undefined){
+          if (this.selection != undefined){
             let game = JSON.stringify(this.selection);
             this.$router.push({name: 'Add To Steam', query:{game}});
           }
